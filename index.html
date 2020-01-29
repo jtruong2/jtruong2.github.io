@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Powered By Jimmy</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jimmy's portfolio" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+
+    <!-- Global CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+
+    <!-- github calendar css -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/github-calendar/dist/github-calendar.css"
+    />
+    <!-- github activity css -->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/github-activity/github-activity-0.1.5.min.css"
+    />
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+      <div class="container clearfix">
+        <img
+          class="profile-image img-fluid float-left"
+          src="assets/images/profile.png"
+          alt="Jimmy Truong"
+        />
+        <div class="profile-content float-left">
+          <h1 class="name">Jimmy V. Truong</h1>
+          <h2 class="desc">Software Developer</h2>
+          <ul class="social list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/jimmyvtruong/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/jtruong2" target="_blank"><i class="fab fa-github-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!--//profile-->
+      </div>
+      <!--//container-->
+    </header>
+    <!--//header-->
+
+    <div class="container sections-wrapper">
+      <div class="row">
+        <div class="primary col-lg-8 col-12">
+          <section class="about section">
+            <div class="section-inner">
+              <h2 class="heading">About Me</h2>
+              <div class="content">
+                <p>
+                  Who, me? My name is Jimmy and I'm a software developer with a
+                  non-traditional background. I came from selling IoT at AT&T to
+                  building my first terminal-based game, battleship, to
+                  graduating school and landing my first developer job. That was
+                  the start of a kid eager to build stuff, break stuff, fix
+                  stuff, and inevitably, learn from it. Other things to note
+                  about me - I love to snowboard, I dry age my own meats, I'm a
+                  huge Denver Broncos fan, I'm a dog person. Oh and I will be
+                  getting married this year!
+                </p>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+          <!--//section-->
+
+          <section class="latest section">
+            <div class="section-inner">
+              <h2 class="heading">Work</h2>
+              <div class="content">
+                <!--//item-->
+                <hr class="divider" />
+                <div class="item row">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/Dan-and-the-Backenders.jpg"
+                      alt="Denver Hackathon"
+                    />
+                  </a>
+                  <div class="desc">
+                    <h3 class="title">
+                      Unearthed Hackathon sponsored by Barrick Gold Corp.
+                    </h3>
+                    <p class="mb-2">
+                        In this event of 137 participants, my team competed by taking on a challenge to develop a risk assessment platform for Barrick Gold Corp. 
+                        The outcome of our project, MitiG8, resulted in a partnership with Barrick. Working this project gave me an insight of the dangers that mining workers face everyday and how the design of our software can prevent fatal injuries. 
+                        Unearthed Solutions wrote an article about our success which could be found in the link below. 
+                        <br><a href="https://unearthed.solutions/news/denver-developers-take-next-steps-barrick-after-hackathon" target="_blank">Denver Developers take next steps with Barrick Corp after Hackathon</a>
+                        <br>Tech used:
+                        <ul>
+                            <li>Ruby on Rails (Backend API)</li> 
+                            <li>React Native (Frontend)</li>
+                        </ul>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item row">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/kuberpi3.jpg"
+                      alt="Kubernetes Cluster"
+                    />
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">
+                      Kuber-pi Cluster
+                    </h3>
+                    <p class="mb-2">
+                     Introducing the Kuber-pi Cluster. This project is a Kubernetes cluster built from 6 Raspberry Pis (1 Master and 5 Workers).
+                     I started this project out of interest in learning more on Kubernetes, Docker, Networks and all things DevOps. Currently, this holds a few of my containerized apps hosted locally. 
+                     <br>
+                    My forthcoming steps: 
+                    <ul>
+                        <li>Add an ethernet switch so that each node can run on LAN instead of WIFI</li>
+                        <li>Add a PiDrive to expand it's storage capacity</li>
+                    </ul>
+                        Tech used:
+                        <ul>
+                            <li>Kubernetes</li>
+                            <li>Docker</li>
+                            <li>6 x Raspberry Pi 3 Model B+ (1.4GHz 64-bit quad-core processor)</li>
+                        </ul>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item row">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/rails_engine_test_coverage.png"
+                      alt="project name"
+                    />
+                  </a>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">
+                        Rails Engine
+                    </h3>
+                    <p class="mb-2">
+                     This Rails API handles requests on stored records and provides analytical data against a large, e-commerce-like, data-set.
+                        <br>
+                        Highlights of this project include:
+                        <ul>
+                                <li>100% Test-Driven Development</li>
+                                <li>100% Test Coverage, inspected with SimpleCov</li>
+                                <li>Automated Testing using RSpec</li>
+                                <li>Advanced SQL queries</li>
+                                <li>PostgreSQL Database</li>
+                        </ul>
+                        <br>
+                         <a href="https://github.com/jtruong2/rails_engine">Github Repo</a></p> 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="experience section">
+            <div class="section-inner">
+              <h2 class="heading">Experience</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title">
+                      DataOps Engineer -
+                    <span class="place">Cloud Elements</span>
+                    <span class="year">(Oct 2018 - Present)</span>
+                  </h3>
+                  <p>
+                    <ul>
+                   <li>Orchestrate and automate the data analytics pipeline, </li>
+                   <li>Follow the ETL process to coordinate events from source to target (Big Query)</li>
+                   <li>Build reports to be analyzed by Business Intelligence users</li>
+                    </ul>
+                  </p>
+
+                </div>
+                <!--//item-->
+                <div class="item">
+                  <h3 class="title">
+                    Software Developer -
+                    <span class="place">NeverSettle.IT</span>
+                    <span class="year">(Jan 2018 - Oct 2018)</span>
+                  </h3>
+                  <p>
+                   <ul>
+                    <li>Design, test, and implement features for client projects such as Shindig and Urban Mattress</li>
+                    <li>Build/maintain API endpoints to be consumed by mobile applications</li>
+                   </ul>
+                  </p>
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                  <h3 class="title">
+                    Sale/ Small Business Rep -
+                    <span class="place">AT&T Corporate</span>
+                    <span class="year">(Jan 2016 - Feb 2017)</span>
+                  </h3>
+                  <p>
+                   <ul>
+                      <li>Deliver an exceptional experience to customers and provide them with products that meet their business needs</li>
+                      <li>Collaborate with teams to ensure customer satisfaction throughout sales cycle from lead generation to close of sale</li>
+                   </ul> 
+                  </p>
+                </div>
+                <!--//item-->
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </section>
+        </div>
+        <!--//primary-->
+        <div class="secondary col-lg-4 col-12">
+          <aside class="info aside section">
+            <div class="section-inner">
+              <h2 class="heading sr-only">Basic Information</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i
+                    ><span class="sr-only">Location:</span>Denver, Colorado
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope"></i
+                    ><span class="sr-only">Email:</span
+                    ><a href="mailto:jtruong2@comcast.net"
+                      >jtruong2@comcast.net</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//aside-->
+
+          <aside class="skills aside section">
+            <div class="section-inner">
+              <h2 class="heading">Skills</h2>
+              <div class="content">
+                <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">
+                      Ruby on Rails
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="96%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                     SQL & PostgreSQL 
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="96%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                      HTML5 & CSS3
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="96%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                        Javascript
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="85%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  
+                  <div class="item">
+                    <h3 class="level-title">
+                       GoLang 
+                    </h3>
+                    <div class="level-bar">
+                      <div class="level-bar-inner" data-level="75%"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                </div>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+          </aside>
+          <!--//section-->
+
+          <aside class="education aside section">
+            <div class="section-inner">
+              <h2 class="heading">Education</h2>
+              <div class="content">
+                <div class="item">
+                  <h3 class="title">
+                    <i class="fas fa-graduation-cap"></i>Turing School Of Software and Design
+                  </h3>
+                  <h4 class="university">
+                    Graduated Backend Engineering Program 
+                    <span class="year">(Nov 2017)</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <aside class="list conferences aside section">
+            <div class="section-inner">
+              <h2 class="heading">Conferences</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="far fa-calendar-alt"></i>
+                    <a href="https://rubyconf.org/" target="_blank">RubyConf 2019</a> (Nashville, TN)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+    <script
+      type="text/javascript"
+      src="assets/plugins/jquery-3.4.1.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/plugins/bootstrap/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"
+    ></script>
+    <!-- github calendar plugin -->
+    <script
+      type="text/javascript"
+      src="assets/plugins/github-calendar/dist/github-calendar.min.js"
+    ></script>
+    <!-- github activity plugin -->
+    <script
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="assets/plugins/github-activity/github-activity-0.1.5.min.js"
+    ></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
