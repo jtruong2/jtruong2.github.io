@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <title>Powered By Jimmy</title>
-    <!-- Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,21 +19,17 @@
       type="text/css"
     />
 
-    <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
 
-    <!-- Global CSS -->
     <link
       rel="stylesheet"
       href="assets/plugins/bootstrap/css/bootstrap.min.css"
     />
 
-    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body>
-    <!-- ******HEADER****** -->
     <header class="header">
       <div class="container clearfix">
         <img
@@ -54,11 +49,8 @@
             </li>
           </ul>
         </div>
-        <!--//profile-->
       </div>
-      <!--//container-->
     </header>
-    <!--//header-->
 
     <div class="container sections-wrapper">
       <div class="row">
@@ -68,74 +60,85 @@
               <h2 class="heading">About Me</h2>
               <div class="content">
                 <p>
-                  Who, me? My name is Jimmy and I'm a software developer with a
+                  Welcome &#128400;  My name is Jimmy and I'm a software developer with a
                   non-traditional background. I came from selling IoT at AT&T to
                   building my first terminal-based game, battleship. I went on to
                   graduating school and landing my first developer job. That was
                   the start of a kid eager to build stuff, break stuff, fix
                   stuff, and inevitably, learn from it. Other things to note
                   about me - I'm a Denver Native, I love to snowboard, I dry age my own meats, I'm a
-                  huge Denver Broncos fan, I'm a dog person. Oh, and I'm happy to say that I will be
-                  getting married this year!
+                  huge Denver Broncos fan and I'm a dog person.
                 </p>
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
           </section>
-          <!--//section-->
 
           <section class="latest section">
             <div class="section-inner">
               <h2 class="heading">Work</h2>
               <div class="content">
-                <!--//item-->
                 <hr class="divider" />
                 <div class="item row">
-                    <img
-                      class="img-fluid project-image"
-                      src="assets/images/Dan-and-the-Backenders.jpg"
-                      alt="Denver Hackathon"
-                    />
-                  </a>
-                  <div class="desc">
-                    <h3 class="title">
-                      Unearthed Hackathon sponsored by Barrick Gold Corp.
-                    </h3>
-                    <p class="mb-2">
-                        In this event of 137 participants, my team competed by taking on a challenge to develop a risk assessment platform for Barrick Gold Corp. 
-                        The outcome of our project, MitiG8, resulted in a partnership with Barrick. Working this project gave me an insight of the dangers that mining workers face everyday and how the design of our software can prevent fatal injuries. 
-                        Unearthed Solutions wrote an article about our success which could be found in the link below. 
-                        <br><a href="https://unearthed.solutions/news/denver-developers-take-next-steps-barrick-after-hackathon" target="_blank">Denver Developers take next steps with Barrick Corp after Hackathon</a>
-                        <br>Tech used:
-                        <ul>
-                            <li>Ruby on Rails (Backend API)</li> 
-                            <li>React Native (Frontend)</li>
-                        </ul>
-                    </p>
-                  </div>
+                  <img
+                    class="img-fluid project-image"
+                    src="assets/images/sweetenerhome.png"
+                    alt="project name"
+                  />
+                </a>
+                <div class="desc">
+                  <h3 class="title"><br />
+                    Sweetener Bakeshop (Client Project)
+                  </h3>
+                  <p class="mb-2">
+                      This e-commerce web app is a current work-in-progress for my client, Sweetener Bakeshop. This app is comprised of a frontend built in VueJS and a backend built as a Ruby on Rails API.
+                      <br />
+                      <br />
+                      <strong>Highlights of this project include:</strong>
+                      <ul>
+                              <li>Authentication / Authorization for Sweetener's Employee Portal</li>
+                              <li>Employees can perform full CRUD on inventory and view sales orders</li>
+                              <li>Credit Card and Paypal payment processing via <a href="https://developers.braintreepayments.com/">BrainTree API</a></li>
+                      </ul>
+                  <strong>My forthcoming steps:</strong> 
+                  <ul>
+                      <li>Implement full CRUD for coupons/ promotions for admin users</li>
+                      <li>Implement functionality to generate and email receipts/ text via <a href="https://www.twilio.com/docs/usage/api">Twilio API</a></li>
+                  </ul>
+                      <strong>Tech used:</strong>
+                      <ul>
+                          <li>VueJS Frontend / Rails Backend</li>
+                          <li>Vuex / VueRouter</li>
+                          <li>Bulma (CSS Framework)</li>
+                          <li>Axios (Request Library)</li>
+                          <li>BrainTree (Payment Processing System)</li>
+                      </ul>
+                      <br />
+                       <a href="https://www.dropbox.com/s/x3to4ojx5gqw35m/SweetenerDemoDesktop.mov">Video Demo</a></p> 
+                       *Due to this being a client project, github repo access/ demos can be given upon request.
+                  </p>
                 </div>
-
+              </div>
                 <div class="item row">
                     <img
                       class="img-fluid project-image"
                       src="assets/images/kuberpi3.jpg"
                       alt="Kubernetes Cluster"
                     />
-                  <div class="desc col-md-8 col-12">
-                    <h3 class="title">
+                  <div class="desc">
+                    <h3 class="title"><br />
                       Kuber-pi Cluster
                     </h3>
                     <p class="mb-2">
                      Introducing the Kuber-pi Cluster. This project is a Kubernetes cluster built from 6 Raspberry Pis (1 Master and 5 Workers).
                      I started this project out of interest in learning more on Kubernetes, Docker, Networks and all things DevOps. Currently, this holds a few of my containerized apps hosted locally. 
-                     <br>
-                    My forthcoming steps: 
+                     <br />
+                     <br />
+                    <strong>My forthcoming steps:</strong> 
                     <ul>
                         <li>Add an ethernet switch so that each node can run on LAN instead of WIFI</li>
                         <li>Add a PiDrive to expand it's storage capacity</li>
                     </ul>
-                        Tech used:
+                        <strong>Tech used:</strong>
                         <ul>
                             <li>Kubernetes</li>
                             <li>Docker</li>
@@ -144,31 +147,28 @@
                     </p>
                   </div>
                 </div>
-
                 <div class="item row">
                     <img
                       class="img-fluid project-image"
-                      src="assets/images/rails_engine_test_coverage.png"
-                      alt="project name"
+                      src="assets/images/Dan-and-the-Backenders.jpg"
+                      alt="Denver Hackathon"
                     />
                   </a>
-                  <div class="desc col-md-8 col-12">
-                    <h3 class="title">
-                        Rails Engine
+                  <div class="desc">
+                    <h3 class="title"><br/>
+                      Unearthed Hackathon sponsored by Barrick Gold Corp.
                     </h3>
                     <p class="mb-2">
-                     This Rails API handles requests on stored records and provides analytical data against a large, e-commerce-like, data-set.
-                        <br>
-                        Highlights of this project include:
+                        In this event of 137 participants, my team competed by taking on a challenge to develop a risk assessment platform for Barrick Gold Corp. 
+                        The outcome of our project, MitiG8, resulted in a partnership with Barrick. Working this project gave me an insight of the dangers that mining workers face everyday and how the design of our software can help prevent fatal injuries. 
+                        <br />Article: <a href="https://unearthed.solutions/news/denver-developers-take-next-steps-barrick-after-hackathon" target="_blank">Denver Developers take next steps with Barrick Corp after Hackathon</a>
+                        <br />
+                        <br />
+                        <strong>Tech used:</strong>
                         <ul>
-                                <li>100% Test-Driven Development</li>
-                                <li>100% Test Coverage, inspected with SimpleCov</li>
-                                <li>Automated Testing using RSpec</li>
-                                <li>Advanced SQL queries</li>
-                                <li>PostgreSQL Database</li>
+                            <li>Ruby on Rails (Backend API)</li> 
+                            <li>React Native (Frontend)</li>
                         </ul>
-                        <br>
-                         <a href="https://github.com/jtruong2/rails_engine">Github Repo</a></p> 
                     </p>
                   </div>
                 </div>
@@ -190,13 +190,12 @@
                     <ul>
                    <li>Build new features backed by Test Driven Development</li>
                    <li>Utilize cloud tools such as Google Cloud Functions, BigQuery, and Pub/Sub</li>
-                   <li>Create reports to be analyzed by Business Intelligence users</li>
+                   <li>Suggest technical solutions to everyday business problems</li>
                    <li>Work with PMs and other team members to ensure acceptance criterias are met</li>
                     </ul>
                   </p>
 
                 </div>
-                <!--//item-->
                 <div class="item">
                   <h3 class="title">
                     Software Engineer-
@@ -210,7 +209,6 @@
                    </ul>
                   </p>
                 </div>
-                <!--//item-->
 
                 <div class="item">
                   <h3 class="title">
@@ -225,14 +223,10 @@
                    </ul> 
                   </p>
                 </div>
-                <!--//item-->
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
           </section>
         </div>
-        <!--//primary-->
         <div class="secondary col-lg-4 col-12">
           <aside class="info aside section">
             <div class="section-inner">
@@ -249,44 +243,37 @@
                   <li>
                     <i class="fas fa-envelope"></i
                     ><span class="sr-only">Email:</span
-                    ><a href="mailto:jtruong2@comcast.net"
+                    ><a href="mailto:Jimmy@PoweredByJimmy.dev"
                       >Jimmy@PoweredByJimmy.dev</a
                     >
                   </li>
                 </ul>
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
           </aside>
-          <!--//aside-->
 
           <aside class="skills aside section">
             <div class="section-inner">
-              <h2 class="heading">Skills</h2>
+              <h2 class="heading">Top Skills</h2>
               <div class="content">
                 <div class="skillset">
                   <div class="item">
                     <h3 class="level-title">
-                      Ruby on Rails
+                      VueJS
                     </h3>
                     <div class="level-bar">
                       <div class="level-bar-inner" data-level="96%"></div>
                     </div>
-                    <!--//level-bar-->
                   </div>
-                  <!--//item-->
 
                   <div class="item">
                     <h3 class="level-title">
-                     SQL & PostgreSQL 
+                      Javascript ES6
                     </h3>
                     <div class="level-bar">
                       <div class="level-bar-inner" data-level="96%"></div>
                     </div>
-                    <!--//level-bar-->
                   </div>
-                  <!--//item-->
 
                   <div class="item">
                     <h3 class="level-title">
@@ -295,36 +282,29 @@
                     <div class="level-bar">
                       <div class="level-bar-inner" data-level="96%"></div>
                     </div>
-                    <!--//level-bar-->
                   </div>
-                  <!--//item-->
 
                   <div class="item">
                     <h3 class="level-title">
-                        Javascript
+                        Ruby on Rails
                     </h3>
                     <div class="level-bar">
                       <div class="level-bar-inner" data-level="85%"></div>
                     </div>
-                    <!--//level-bar-->
                   </div>
                   
                   <div class="item">
                     <h3 class="level-title">
-                       GoLang 
+                       SQL
                     </h3>
                     <div class="level-bar">
                       <div class="level-bar-inner" data-level="75%"></div>
                     </div>
-                    <!--//level-bar-->
                   </div>
                 </div>
               </div>
-              <!--//content-->
             </div>
-            <!--//section-inner-->
           </aside>
-          <!--//section-->
 
           <aside class="education aside section">
             <div class="section-inner">
@@ -369,12 +349,10 @@
       type="text/javascript"
       src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"
     ></script>
-    <!-- github calendar plugin -->
     <script
       type="text/javascript"
       src="assets/plugins/github-calendar/dist/github-calendar.min.js"
     ></script>
-    <!-- github activity plugin -->
     <script
       type="text/javascript"
       src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"
@@ -383,7 +361,6 @@
       type="text/javascript"
       src="assets/plugins/github-activity/github-activity-0.1.5.min.js"
     ></script>
-    <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
